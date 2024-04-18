@@ -1,0 +1,141 @@
+body{
+    position: absolute;
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    position: absolute;
+    margin: 0;   
+    height: 100vh;
+    z-index:-1;
+    top:0;
+    left:0;
+    width:100%;
+}
+
+#background-img {
+    position: absolute;
+    margin: 0;   
+    height: 100vh;
+    z-index:-1;
+    top:0;
+    left:0;
+    width:100%;
+}
+
+#ACUVUE-logo {
+    position: absolute;
+    width: 18vw;
+    height: 16vh;
+    z-index: 5;
+    border-radius: 70%;
+    box-shadow: 7px 7px 7px 8px rgb(134, 222, 252);
+    right: 3vw;
+    top: 2vw;
+}
+
+#moscon-logo{
+    position: absolute;
+    top: 2vh;
+    right: 27vw;
+    display: flex;
+    background-size: cover;
+    height: 19vh;
+    width: 14vw;
+  }
+
+#Annette {
+    position: absolute;
+    border-radius: 32% 52% 38% 0%;
+    transform: scaleX(-1);
+    left: 71vw;
+    top: 27.7vh;
+    width: 29vw;
+}
+
+#Frontliner {
+    font-family: 'Satisfy', Arial, Helvetica, sans-serif;
+    font-size: 11vh;
+    position: absolute;
+    top: 0vh;
+    left: 2vw;
+    margin: 0;
+    border: none;
+    color: rgb(42, 42, 124);
+    font-weight: lighter;
+}
+
+#Training {
+    font-family: 'Noto Serif', Arial, Helvetica, sans-serif;
+    position: absolute;
+    font-size: 11vh;
+    top: 12vh;
+    left: 2vw;
+    margin: 0;
+    border: none;
+    color: rgb(34, 162, 212)
+}
+
+#list-header {
+    font-size: 7vh;
+    font-family: 'Noto Serif', Arial, Helvetica, sans-serif;
+    color:rgb(42, 42, 124);
+    margin: 0;
+    border: none;
+}
+
+.topics {
+    position: absolute;
+    top: 37vh;
+    left: 2vw;
+}
+
+li {
+    font-size: 4vh;
+    font-family: 'Noto Serif', Arial, Helvetica, sans-serif;
+    color: rgb(42, 42, 124); 
+}
+
+.details {
+    position: absolute;
+    left: 36vw;
+    color: rgb(42, 42, 124);
+    font-size: 5.5vh;
+    top: 37vh;
+}
+
+
+button{
+    position: absolute;
+    height: 10vh;
+    width: 25vw;
+    bottom: 7vh;
+    left: 20vw;
+    border-radius: 50px;
+    font-size: 4vh;
+    border-width: 0.1px;
+    border-color: rgb(34, 162, 212);
+    color: #f5f5f5;
+    background-color: rgb(34, 162, 212);
+    box-shadow: 7px 5px 8px 6px rgb(49, 64, 194);
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:active{
+    position: absolute;
+    height: 10vh;
+    width: 25vw;
+    bottom: 6vh;
+    left: 21vw;
+    border-radius: 50px;
+    font-size: 4vh;
+    border-width: 0.1px;
+    border-color: #f5f5f5;
+    color: rgb(34, 162, 212);
+    background-color: #f5f5f5; 
+    box-shadow: none;   
+    transition-duration: 0.05s;
+}
